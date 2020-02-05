@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F3FFFF;
+  margin: 0;
+}
+
+.overzicht button {
+  width: 48%;
+  float: right;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 2.5em;
+  font-size: 25px;
+  background-color: #D9FAFF;
+}
+
+.datum button {
+  width: 48%;
+  float: left;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 2.5em;
+  font-size: 25px;
+  background-color: #D9FAFF;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.warningDag img {
+  float: right;
+  margin-top: -90px;
+  margin-right: 40px;
+}
+
+.warning img {
+  float: right;
+  margin-top: 540px;
+  margin-right: 40px;
+}
+
+.lu {
+  margin-left: 30px;
+  margin-top: 60px;
+  font-size: 25px;
+}
+
+.lu a {
+  text-decoration: none;
+  color: black;
+}
+
+button[type=taak] {
+  width: 224px;
+  padding: 12px;
+  margin: 10px 37px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 57px;
+  margin-top: 1.8em;
+  text-align: center;
+  background-color: #D8FFE3;
+}
+
+button[type=taak_2] {
+  width: 224px;
+  padding: 12px;
+  margin: 10px 37px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 57px;
+  margin-top: 1.8em;
+  text-align: center;
+  background-color: white;
+}

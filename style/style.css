@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F3FFFF;
+  margin: 0;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 24px 40px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 30px;
+  height: 2.2em;
+  font-size: 25px;
+}
+
+button[type=login]{
+  background-color: #93CE97;
+  color: white;
+  padding: 18px;
+  border: none;
+  margin-left: 40px;
+  width: 80%;
+  margin-top: 4em;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.imgcontainer {
+  text-align: center;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.wwf {
+  padding-right: 100px;
+  padding-top: 3em;
+}
+
+.wwf a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: #D9FAFF;
+  width: 100%;
+}
+
+header img {
+  padding-left: 140px;
+}
+
+button[type=patiënt1], input[type=patiënt2], input[type=patiënt3], input[type=patiënt4]{
+  width: 80%;
+  padding: 12px;
+  margin: 10px 40px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 30px;
+  height: 4em;
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.kp {
+  text-align: center;
+}
+
+.warning {
+  float: right;
+  margin-right: 30px;
+  margin-top: 165px;
+}
+
+.lu {
+  margin-top: 190px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.lu a {
+  text-decoration: none;
+  color: black;
+}
+
+.NaarInlog {
+  margin-top: 3em;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 160px;
+}
+
+.hulp_img img {
+  width: 225px;
+  margin-top: 1.3em;
+  margin-left: 75px
+}
+
+.terug {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1.8em;
+}
+
+.terug a {
+  text-decoration: none;
+  color: black;
+}
+
+.taak {
+width: 320px;
+height: 59px;
+border-radius: 30px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 65px;
+border: 1px solid #ccc;
+text-align: center;
+background-color: white;
+font-size: 21px;
+}
+
+.warning_taak {
+  float: right;
+  margin-right: 30px;
+  margin-top: 608px;
+}
+
+.lu_taak {
+  margin-top: 630px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.lu_taak a {
+  text-decoration: none;
+  color: black;
+}
